@@ -1,0 +1,7 @@
+if (size >= arr.length) 
+{
+  System.out.println("Array is full!");
+  break;
+}
+System.out.print("Enter element to insert at end: ");
+arr[size++] = sc.nextInt();
